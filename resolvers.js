@@ -32,7 +32,7 @@ const resolvers = {
         );
       
         if (!updatedMovie) {
-        throw new Error("Movie not found or update failed");
+        throw new Error("Movie not found");
         }
       
         return updatedMovie;
