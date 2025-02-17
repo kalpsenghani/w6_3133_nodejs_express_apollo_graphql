@@ -36,5 +36,5 @@ const typeDefs = gql`
     deleteMovie(id: ID!): String
   }
 `;
-
+  
 module.exports = typeDefs;
